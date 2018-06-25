@@ -1,2 +1,2 @@
 # TypeScript
-Creating during practicing TypeScript
+Created during practicing TypeScript
