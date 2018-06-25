@@ -17,22 +17,27 @@ class YoutubeVideos{
     public Description:string;          //Description about video
     private isLoggedIn:boolean;         //User is logged in or not
 
-    constructor(videoId:string, videoTitle:string, channelName:string, numberOfViews:number, numberOfLikes:number, numberOfDislikes:number, isSubscribed:boolean, recieveNotifications:boolean, AutoPlay:boolean, Category:string, Licence:string, publishDate:string, numberOfComments:number, Description:string, isLoggedIn:boolean){
-        this.videoId = videoId;
-        this.videoTitle = videoTitle;
-        this.channelName = channelName;
-        this.numberOfViews = numberOfViews;
-        this.numberOfLikes =numberOfLikes;
-        this.numberOfDislikes = numberOfDislikes;
-        this.isSubscribed = isSubscribed;
-        this.recieveNotifications = recieveNotifications;
-        this.AutoPlay = AutoPlay;
-        this.Category = Category;
-        this.Licence = Licence;
-        this.publishDate = publishDate;
-        this.numberOfComments = numberOfComments;
-        this.Description = Description;
-        this.isLoggedIn = isLoggedIn;
+    //constructor for the class
+    constructor(videoId:string, videoTitle:string, channelName:string, numberOfViews:number, 
+        numberOfLikes:number, numberOfDislikes:number, isSubscribed:boolean, 
+        recieveNotifications:boolean, AutoPlay:boolean, Category:string, Licence:string, 
+        publishDate:string, numberOfComments:number, Description:string, isLoggedIn:boolean){
+            
+            this.videoId = videoId;
+            this.videoTitle = videoTitle;
+            this.channelName = channelName;
+            this.numberOfViews = numberOfViews;
+            this.numberOfLikes =numberOfLikes;
+            this.numberOfDislikes = numberOfDislikes;
+            this.isSubscribed = isSubscribed;
+            this.recieveNotifications = recieveNotifications;
+            this.AutoPlay = AutoPlay;
+            this.Category = Category;
+            this.Licence = Licence;
+            this.publishDate = publishDate;
+            this.numberOfComments = numberOfComments;
+            this.Description = Description;
+            this.isLoggedIn = isLoggedIn;
     }
 
     //getter method for number of views

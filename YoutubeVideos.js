@@ -1,5 +1,6 @@
 //Class for Youtube Video Page
 var YoutubeVideos = /** @class */ (function () {
+    //constructor for the class
     function YoutubeVideos(videoId, videoTitle, channelName, numberOfViews, numberOfLikes, numberOfDislikes, isSubscribed, recieveNotifications, AutoPlay, Category, Licence, publishDate, numberOfComments, Description, isLoggedIn) {
         var _this = this;
         //getter method for number of views
